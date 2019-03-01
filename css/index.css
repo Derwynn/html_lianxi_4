@@ -1,0 +1,398 @@
+@charset "utf-8";
+.inner{ width: 999px;margin: 0 auto; }
+
+
+/*头部*/
+
+.header{
+    position: relative;
+}
+.header .headerTop img{
+    width: 100%;
+    height: auto;
+
+}
+.header .headerTop .text{
+    background: linear-gradient(90deg,transparent,#1682af,transparent);
+    padding:19px 0 42px 0;
+    position: absolute;
+    bottom: 0;
+    left: 350px;
+}
+.header .headerTop p{
+    text-align: center;
+    font:22px/34px "微软雅黑";
+    color:#fff;
+}
+
+
+/*主要内容*/
+
+.main .depthH1 img{
+    padding:59px 0 0 261px;
+}
+.main .depthH1 h3{
+    text-align: center;
+    font:bold 36px/49px "微软雅黑";
+    color:#333;
+    padding:54px 0 0 37px;
+}
+.main .depthH1 h3 p{
+    font:22px/49px "微软雅黑";
+    color:#333;
+}
+.main .teacherBox{
+    padding-top:46px;
+    display: flex;
+    justify-content: space-between;
+}
+.main .teacherBox .teacher{
+    padding-bottom: 17px;
+    width: 267px;
+    text-align: center;
+}
+.main .teacherBox .teacher h3{
+    padding-top: 21px;
+    font:bold 24px/44px "微软雅黑";
+    color:#333;
+}
+.main .teacherBox .teacher p{
+    font:24px/44px "微软雅黑";
+    color:#333;
+}
+.main .teacherBox .teacher a{
+    display: block;
+    margin: 0 auto;
+    width: 144px;
+    font:24px/45px "微软雅黑";
+    color: #fff;
+    background: #f95c5c;
+    border-radius:30px;
+    box-shadow:0 4px 0 #e8e8e8;
+}
+.teacher:hover{
+    box-shadow: 0 0 100px #ececec;
+}
+.main .horn{
+    padding: 69px 0 48px 182px;
+}
+.main .offline{
+    height: 674px;
+    background:linear-gradient(#ffec91,#ffefa3) ;
+}
+.main .offline .depthH1{
+    position: relative;
+}
+.main .offline .depthH1 h3{
+    padding-left: 393px;
+}
+.main .offline .depthH1 img{
+    transform: scale(-1,1);
+    position: absolute;
+    left:646px;
+}
+.main .offline .centre img{
+    width: 320px;
+    height: 222px;
+    border-radius: 10px;
+    overflow: hidden;
+    border:11px solid #fff;
+    margin: 28px 0 0 18px;
+}
+.main .offline .centre p{
+    padding-top: 17px;
+    text-indent: 70px;
+    font:20px "微软雅黑";
+    color: #333;
+    background: url("../images/tanhao1_17.jpg")no-repeat left top,        url("../images/tanhao2_21.jpg") no-repeat bottom right;
+    width: 485px;
+    height: 140px;
+    margin: 57px 51px 0 0;
+}
+.main .offline .centre p span{
+    font:24px "微软雅黑";
+}
+.main .offline .centre{
+    padding-bottom: 43px;
+}
+.main .list ul{
+    padding: 0 18px;
+}
+.main .list ul li{
+    float: left;
+    padding: 0 31px 18px 0;
+}
+.main .list ul .l1{
+    padding: 0 0 18px 0;
+}
+.main .list ul li a{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 #e8d788;
+    text-align: center;
+    display: block;
+    font:20px/33px "微软雅黑";
+    color:#333;
+    width: 79px;
+}
+.main .list ul li:hover a{
+    background:#f95c5c ;
+}
+.main .free .course{
+    margin-top: 41px;
+    margin-bottom: 76px;
+    background: #c2f3ff;
+    height: 336px;
+    border-radius: 10px;
+}
+.main .free .course ul li{
+    float: left;
+    font:24px/84px "微软雅黑";
+    color:#333;
+}
+.main .free .course ul .l1{
+    padding: 0 213px 0 90px;
+}
+.main .free .course ul .l3{
+    padding: 0 126px 0 140px;
+}
+.main .free .course .jiaRu li{
+    font:20px/50px "微软雅黑";
+    color: #333;
+}
+.main .free .course .jiaRu{
+    padding-bottom: 10px;
+}
+.main .free .course .jiaRu li a{
+    color: #333;
+}
+.main .free .course .jiaRu .guoKao{
+    padding:0 414px 0 49px;
+}
+.main .free .course .jiaRu .liJi{
+    padding-top: 7px;
+    padding-left: 118px;
+}
+.main .free .course .jiaRu .liJi a{
+    display: block;
+    font:20px/33px "微软雅黑";
+    color: #333;
+    text-align: center;
+    width: 117px;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 0 #b1dde8;
+}
+.main .free .course .jiaRu .liJi a:hover{
+    background: #f95c5c;
+    color:#fff;
+}
+.main .advisory{
+    position: relative;
+    background: #f7f7f7;
+}
+.main .advisory .depthH1{
+    position: relative;
+}
+.main .advisory .depthH1 h3{
+    padding-left: 393px;
+}
+.main .advisory .depthH1 img{
+    transform: scale(-1,1);
+    position: absolute;
+    left:683px;
+}
+.main .advisory .informationBox .information{
+    width: 267px;
+    height: 252px;
+    border:1px solid #f96b6b;
+    border-radius: 50%;
+    box-shadow: 0 15px 0 #f96b6b ;
+    text-align: center;
+}
+.main .advisory .informationBox .information h3{
+    font:bold 24px/58px "微软雅黑";
+    color: #f95c5c;
+    padding-top: 27px;
+
+}
+.main .advisory .informationBox .information .aBox{
+    display: block;
+    font:20px/30px "微软雅黑";
+    width: 173px;
+    padding-left: 42px;
+}
+.main .advisory .informationBox .information .aBox a{
+    color: #333;
+}
+.main .advisory .informationBox .information .aBox a:hover{
+    color:#f95c5c ;
+    text-decoration:underline;
+}
+
+.main .advisory .informationBox .guide{
+    margin-top: 15px;
+    width: 267px;
+    height: 252px;
+    border:1px solid #78d8f0;
+    border-radius: 50%;
+    box-shadow: 0 -15px 0 #78d8f0 ;
+    text-align: center;
+}
+.main .advisory .informationBox .guide h3{
+    font:bold 24px/58px "微软雅黑";
+    color: #78d8f0;
+    padding-top: 27px;
+
+}
+.main .advisory .informationBox .guide .aBox{
+    display: block;
+    font:20px/30px "微软雅黑";
+    width: 170px;
+    padding-left: 45px;
+}
+.main .advisory .informationBox .guide .aBox a{
+    color: #333;
+}
+.main .advisory .informationBox .guide .aBox a:hover{
+    color:#78d8f0;
+    text-decoration:underline;
+}
+.main .advisory .informationBox .aisle{
+    width: 267px;
+    height: 252px;
+    border:1px solid #ffe360;
+    border-radius: 50%;
+    box-shadow: 0 15px 0 #ffe360 ;
+}
+.main .advisory .informationBox .aisle h3{
+    font:bold 24px/58px "微软雅黑";
+    color: #ffe360;
+    padding-top: 27px;
+    text-align: center;
+
+}
+.main .advisory .informationBox .aisle .aBox{
+    display: block;
+    font:20px/30px "微软雅黑";
+    width: 173px;
+    padding-left: 51px;
+}
+.main .advisory .informationBox .aisle .aBox a{
+    color: #333;
+}
+.main .advisory .informationBox .aisle .aBox a:hover{
+    color: #ffe360;
+    text-decoration:underline;
+}
+
+.main .advisory .informationBox{
+    padding: 46px 0 58px 0 ;
+    display: flex;
+    justify-content:space-between;;
+}
+
+.main .Live .lessonBox .lesson img{
+    width: 303px;
+    height: 179px;
+    border-radius: 10px;
+}
+.main .Live .lessonBox .lesson{
+    position: relative;
+}
+.main .Live .lessonBox .lesson .yin1{
+    display: block;
+    width:303px ;
+    height: 100px;
+    border-radius: 10px;
+    background: #dcdcdc;
+    transform:skew(0deg,-5deg);
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+}
+.main .Live .lessonBox .lesson .yin2{
+    display: block;
+    width:303px ;
+    height: 100px;
+    border-radius: 10px;
+    background: #dcdcdc;
+    transform:skew(0deg,5deg);
+    position: absolute;
+    left:0;
+    bottom: 0;
+    z-index: -1;
+}
+.main .Live .lessonBox{
+    font: 20px/55px "微软雅黑";
+    color:#333;
+    width: 303px;
+    text-align: center;
+}
+.main .Live .lessonbigBox {
+    padding: 47px 0 57px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*底部*/
+
+.footer{
+    background: #c3f3ff;
+}
+.footer .More h3{
+    font:bold 36px/149px "微软雅黑";
+    color: #333;
+    text-align: center;
+    background: url("../images/shuidi1_25.jpg")no-repeat 295px center,  url(../images/shuidi2_28.jpg) no-repeat 660px center;
+}
+.footer .More .erweimaBox .erweima{
+    text-align: center;
+    width: 215px;
+}
+.footer .More .erweimaBox .erweima img{
+    padding-bottom: 21px;
+}
+.footer .More .erweimaBox .erweima h4{
+    font:22px/33px "微软雅黑";
+    color: #ff5b5b;
+    background: url("../images/left_45.jpg") no-repeat 30px center,url("../images/right_47.jpg") no-repeat 173px  center;
+}
+.footer .More .erweimaBox .erweima p{
+    font:18px/33px "微软雅黑";
+    color: #555;
+    padding-bottom: 53px;
+}
+.footer .More .erweimaBox{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .More .erweimaBox .qq h4{
+    background: url("../images/left_45.jpg") no-repeat 6px center,url("../images/right_47.jpg") no-repeat 198px  center;
+}
+
+
+/*版权信息*/
+
+.copy .copyBox{
+    background: #26819f;
+    padding: 24px 0 32px 0;
+    text-align: center;
+}
+.copy .copyBox .inner .copLink{
+    font:12px/20px "新宋体";
+    color:#b4dce9;
+}
+.copy .copyBox .inner .copLink a{
+    color:#b4dce9 ;
+}
+.copy .copyBox .inner p{
+    font:12px/20px "新宋体";
+    color: #b4dce9;
+}
+.copy .copyBox .inner p a{
+    color: #b4dce9;
+}
